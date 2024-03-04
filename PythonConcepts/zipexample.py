@@ -12,3 +12,4 @@ language,version = zip(*result)
 
 print(language)
 print(version)
+
