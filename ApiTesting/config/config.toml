@@ -1,0 +1,5 @@
+[server]
+url = 'https://reqres.in'
+post_api_endpoint = '/api/users'
+
+
