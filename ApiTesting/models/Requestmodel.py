@@ -5,7 +5,7 @@ from dataclasses_json import dataclass_json
 
 @dataclass_json
 @dataclass
-class RequestPayloadModel:
+class RequestPayloadModel(object):
     name: str
     job: str
 

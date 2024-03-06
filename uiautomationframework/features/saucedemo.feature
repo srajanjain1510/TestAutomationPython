@@ -1,5 +1,6 @@
 Feature:
   
+  @positiveflow
   Scenario Outline: Login to Application
 	Given Application URL
 	When login with valid <user> and <password>

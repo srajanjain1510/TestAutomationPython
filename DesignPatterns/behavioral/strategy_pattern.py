@@ -39,3 +39,4 @@ class TradingApp:
 
     def sell_order(self,sell_decision: SellStrategy):
         self.assets =  sell_decision.sell_crypto()
+

@@ -1,5 +1,5 @@
 
-language = ['java','python']
+language = ['java','python','Go']
 version = [21,3.11]
 
 result = list(zip(language,version))
