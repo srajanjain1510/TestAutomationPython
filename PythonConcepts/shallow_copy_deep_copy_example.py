@@ -16,4 +16,5 @@ deep_list[0][0] = "peach"
 
 print("Original:", original_list)
 print("Shallow Copy:", shallow_list)
+print("Original before deep copy:", original_list1)
 print("Deep Copy:", deep_list)
