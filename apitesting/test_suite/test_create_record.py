@@ -3,7 +3,7 @@ from dataclasses import asdict
 import pytest
 import requests
 
-from ApiTesting.models.Requestmodel import RequestPayloadModel
+from apitesting.models.Requestmodel import RequestPayloadModel
 
 @pytest.mark.regression
 def test_post_call_validation(read_toml_file):
